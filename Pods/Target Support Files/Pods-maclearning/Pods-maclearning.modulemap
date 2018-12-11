@@ -1,0 +1,6 @@
+framework module Pods_maclearning {
+  umbrella header "Pods-maclearning-umbrella.h"
+
+  export *
+  module * { export * }
+}

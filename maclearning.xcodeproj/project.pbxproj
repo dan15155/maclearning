@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		BAADE68D21BFB0C3006AC045 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAADE68C21BFB0C3006AC045 /* AppDelegate.m */; };
-		BAADE69021BFB0C3006AC045 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = BAADE68F21BFB0C3006AC045 /* Document.m */; };
-		BAADE69321BFB0C3006AC045 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAADE69121BFB0C3006AC045 /* Document.xib */; };
 		BAADE69521BFB0C4006AC045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAADE69421BFB0C4006AC045 /* Assets.xcassets */; };
-		BAADE69821BFB0C4006AC045 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAADE69621BFB0C4006AC045 /* MainMenu.xib */; };
 		BAADE69B21BFB0C4006AC045 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAADE69A21BFB0C4006AC045 /* main.m */; };
 		BAADE6A621BFB0C4006AC045 /* maclearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAADE6A521BFB0C4006AC045 /* maclearningTests.m */; };
 		BAADE6B121BFB0C4006AC045 /* maclearningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAADE6B021BFB0C4006AC045 /* maclearningUITests.m */; };
+		BAADE6CB21BFB100006AC045 /* EWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAADE6C121BFB100006AC045 /* EWHomeViewController.m */; };
+		BAADE6CC21BFB100006AC045 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BAADE6C421BFB100006AC045 /* HomeCell.m */; };
+		BAADE6CD21BFB100006AC045 /* NSButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAADE6C721BFB100006AC045 /* NSButtonController.m */; };
+		CF2BF82242A7CF9073CB505A /* Pods_maclearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DF38E48EAF9AA866371C2F /* Pods_maclearning.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A782CAB11A354965E95C441 /* Pods-maclearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maclearning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-maclearning/Pods-maclearning.debug.xcconfig"; sourceTree = "<group>"; };
+		A19C0815EC400A511ABA0049 /* Pods-maclearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maclearning.release.xcconfig"; path = "Pods/Target Support Files/Pods-maclearning/Pods-maclearning.release.xcconfig"; sourceTree = "<group>"; };
 		BAADE68821BFB0C3006AC045 /* maclearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maclearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAADE68B21BFB0C3006AC045 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BAADE68C21BFB0C3006AC045 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BAADE68E21BFB0C3006AC045 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
-		BAADE68F21BFB0C3006AC045 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
-		BAADE69221BFB0C3006AC045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
 		BAADE69421BFB0C4006AC045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BAADE69721BFB0C4006AC045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		BAADE69921BFB0C4006AC045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAADE69A21BFB0C4006AC045 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BAADE69C21BFB0C4006AC045 /* maclearning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = maclearning.entitlements; sourceTree = "<group>"; };
@@ -52,6 +51,14 @@
 		BAADE6AC21BFB0C4006AC045 /* maclearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maclearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAADE6B021BFB0C4006AC045 /* maclearningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = maclearningUITests.m; sourceTree = "<group>"; };
 		BAADE6B221BFB0C4006AC045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAADE6C021BFB100006AC045 /* EWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWHomeViewController.h; sourceTree = "<group>"; };
+		BAADE6C121BFB100006AC045 /* EWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWHomeViewController.m; sourceTree = "<group>"; };
+		BAADE6C321BFB100006AC045 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		BAADE6C421BFB100006AC045 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		BAADE6C721BFB100006AC045 /* NSButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSButtonController.m; sourceTree = "<group>"; };
+		BAADE6C821BFB100006AC045 /* NSButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSButtonController.h; sourceTree = "<group>"; };
+		BAADE6CE21BFBE94006AC045 /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
+		C6DF38E48EAF9AA866371C2F /* Pods_maclearning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_maclearning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF2BF82242A7CF9073CB505A /* Pods_maclearning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		141251F3F372A1C35165C3EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6DF38E48EAF9AA866371C2F /* Pods_maclearning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B12A1355C5014CCFB63D8C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A782CAB11A354965E95C441 /* Pods-maclearning.debug.xcconfig */,
+				A19C0815EC400A511ABA0049 /* Pods-maclearning.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BAADE67F21BFB0C3006AC045 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +111,8 @@
 				BAADE6A421BFB0C4006AC045 /* maclearningTests */,
 				BAADE6AF21BFB0C4006AC045 /* maclearningUITests */,
 				BAADE68921BFB0C3006AC045 /* Products */,
+				6B12A1355C5014CCFB63D8C5 /* Pods */,
+				141251F3F372A1C35165C3EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,15 +129,14 @@
 		BAADE68A21BFB0C3006AC045 /* maclearning */ = {
 			isa = PBXGroup;
 			children = (
+				BAADE6C521BFB100006AC045 /* Custom */,
+				BAADE6BE21BFB100006AC045 /* Home */,
 				BAADE68B21BFB0C3006AC045 /* AppDelegate.h */,
 				BAADE68C21BFB0C3006AC045 /* AppDelegate.m */,
-				BAADE68E21BFB0C3006AC045 /* Document.h */,
-				BAADE68F21BFB0C3006AC045 /* Document.m */,
-				BAADE69121BFB0C3006AC045 /* Document.xib */,
 				BAADE69421BFB0C4006AC045 /* Assets.xcassets */,
-				BAADE69621BFB0C4006AC045 /* MainMenu.xib */,
 				BAADE69921BFB0C4006AC045 /* Info.plist */,
 				BAADE69A21BFB0C4006AC045 /* main.m */,
+				BAADE6CE21BFBE94006AC045 /* PrefixHeader.h */,
 				BAADE69C21BFB0C4006AC045 /* maclearning.entitlements */,
 			);
 			path = maclearning;
@@ -134,6 +160,66 @@
 			path = maclearningUITests;
 			sourceTree = "<group>";
 		};
+		BAADE6BE21BFB100006AC045 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BAADE6BF21BFB100006AC045 /* HomeVC */,
+				BAADE6C221BFB100006AC045 /* HomeCell */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BAADE6BF21BFB100006AC045 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				BAADE6C021BFB100006AC045 /* EWHomeViewController.h */,
+				BAADE6C121BFB100006AC045 /* EWHomeViewController.m */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		BAADE6C221BFB100006AC045 /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				BAADE6C321BFB100006AC045 /* HomeCell.h */,
+				BAADE6C421BFB100006AC045 /* HomeCell.m */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		BAADE6C521BFB100006AC045 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				BAADE6C621BFB100006AC045 /* CustomVC */,
+				BAADE6C921BFB100006AC045 /* CustomView */,
+				BAADE6CA21BFB100006AC045 /* CustomCell */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		BAADE6C621BFB100006AC045 /* CustomVC */ = {
+			isa = PBXGroup;
+			children = (
+				BAADE6C721BFB100006AC045 /* NSButtonController.m */,
+				BAADE6C821BFB100006AC045 /* NSButtonController.h */,
+			);
+			path = CustomVC;
+			sourceTree = "<group>";
+		};
+		BAADE6C921BFB100006AC045 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		BAADE6CA21BFB100006AC045 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAADE6B521BFB0C4006AC045 /* Build configuration list for PBXNativeTarget "maclearning" */;
 			buildPhases = (
+				CFD91D9D571DB64840DCD1EB /* [CP] Check Pods Manifest.lock */,
 				BAADE68421BFB0C3006AC045 /* Sources */,
 				BAADE68521BFB0C3006AC045 /* Frameworks */,
 				BAADE68621BFB0C3006AC045 /* Resources */,
+				985A18BD9AABF1F2BDDC10C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,8 +326,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAADE69521BFB0C4006AC045 /* Assets.xcassets in Resources */,
-				BAADE69321BFB0C3006AC045 /* Document.xib in Resources */,
-				BAADE69821BFB0C4006AC045 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,12 +345,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		985A18BD9AABF1F2BDDC10C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-maclearning/Pods-maclearning-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-maclearning/Pods-maclearning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFD91D9D571DB64840DCD1EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-maclearning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BAADE68421BFB0C3006AC045 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAADE69021BFB0C3006AC045 /* Document.m in Sources */,
+				BAADE6CD21BFB100006AC045 /* NSButtonController.m in Sources */,
+				BAADE6CB21BFB100006AC045 /* EWHomeViewController.m in Sources */,
+				BAADE6CC21BFB100006AC045 /* HomeCell.m in Sources */,
 				BAADE69B21BFB0C4006AC045 /* main.m in Sources */,
 				BAADE68D21BFB0C3006AC045 /* AppDelegate.m in Sources */,
 			);
@@ -300,25 +437,6 @@
 			targetProxy = BAADE6AD21BFB0C4006AC045 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BAADE69121BFB0C3006AC045 /* Document.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BAADE69221BFB0C3006AC045 /* Base */,
-			);
-			name = Document.xib;
-			sourceTree = "<group>";
-		};
-		BAADE69621BFB0C4006AC045 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BAADE69721BFB0C4006AC045 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BAADE6B321BFB0C4006AC045 /* Debug */ = {
@@ -434,11 +552,14 @@
 		};
 		BAADE6B621BFB0C4006AC045 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A782CAB11A354965E95C441 /* Pods-maclearning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = maclearning/maclearning.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DHR8ACT4J8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/maclearning/PrefixHeader.h";
 				INFOPLIST_FILE = maclearning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,11 +572,14 @@
 		};
 		BAADE6B721BFB0C4006AC045 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A19C0815EC400A511ABA0049 /* Pods-maclearning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = maclearning/maclearning.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DHR8ACT4J8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/maclearning/PrefixHeader.h";
 				INFOPLIST_FILE = maclearning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
