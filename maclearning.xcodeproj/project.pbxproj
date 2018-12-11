@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAADE68D21BFB0C3006AC045 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAADE68C21BFB0C3006AC045 /* AppDelegate.m */; };
+		BAADE69021BFB0C3006AC045 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = BAADE68F21BFB0C3006AC045 /* Document.m */; };
+		BAADE69321BFB0C3006AC045 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAADE69121BFB0C3006AC045 /* Document.xib */; };
+		BAADE69521BFB0C4006AC045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAADE69421BFB0C4006AC045 /* Assets.xcassets */; };
+		BAADE69821BFB0C4006AC045 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAADE69621BFB0C4006AC045 /* MainMenu.xib */; };
+		BAADE69B21BFB0C4006AC045 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAADE69A21BFB0C4006AC045 /* main.m */; };
+		BAADE6A621BFB0C4006AC045 /* maclearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAADE6A521BFB0C4006AC045 /* maclearningTests.m */; };
+		BAADE6B121BFB0C4006AC045 /* maclearningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAADE6B021BFB0C4006AC045 /* maclearningUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAADE6A221BFB0C4006AC045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAADE68021BFB0C3006AC045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAADE68721BFB0C3006AC045;
+			remoteInfo = maclearning;
+		};
+		BAADE6AD21BFB0C4006AC045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAADE68021BFB0C3006AC045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAADE68721BFB0C3006AC045;
+			remoteInfo = maclearning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAADE68821BFB0C3006AC045 /* maclearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maclearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAADE68B21BFB0C3006AC045 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAADE68C21BFB0C3006AC045 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAADE68E21BFB0C3006AC045 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		BAADE68F21BFB0C3006AC045 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		BAADE69221BFB0C3006AC045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		BAADE69421BFB0C4006AC045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAADE69721BFB0C4006AC045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BAADE69921BFB0C4006AC045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAADE69A21BFB0C4006AC045 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAADE69C21BFB0C4006AC045 /* maclearning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = maclearning.entitlements; sourceTree = "<group>"; };
+		BAADE6A121BFB0C4006AC045 /* maclearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maclearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAADE6A521BFB0C4006AC045 /* maclearningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = maclearningTests.m; sourceTree = "<group>"; };
+		BAADE6A721BFB0C4006AC045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAADE6AC21BFB0C4006AC045 /* maclearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maclearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAADE6B021BFB0C4006AC045 /* maclearningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = maclearningUITests.m; sourceTree = "<group>"; };
+		BAADE6B221BFB0C4006AC045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAADE68521BFB0C3006AC045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAADE69E21BFB0C4006AC045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAADE6A921BFB0C4006AC045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAADE67F21BFB0C3006AC045 = {
+			isa = PBXGroup;
+			children = (
+				BAADE68A21BFB0C3006AC045 /* maclearning */,
+				BAADE6A421BFB0C4006AC045 /* maclearningTests */,
+				BAADE6AF21BFB0C4006AC045 /* maclearningUITests */,
+				BAADE68921BFB0C3006AC045 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAADE68921BFB0C3006AC045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAADE68821BFB0C3006AC045 /* maclearning.app */,
+				BAADE6A121BFB0C4006AC045 /* maclearningTests.xctest */,
+				BAADE6AC21BFB0C4006AC045 /* maclearningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAADE68A21BFB0C3006AC045 /* maclearning */ = {
+			isa = PBXGroup;
+			children = (
+				BAADE68B21BFB0C3006AC045 /* AppDelegate.h */,
+				BAADE68C21BFB0C3006AC045 /* AppDelegate.m */,
+				BAADE68E21BFB0C3006AC045 /* Document.h */,
+				BAADE68F21BFB0C3006AC045 /* Document.m */,
+				BAADE69121BFB0C3006AC045 /* Document.xib */,
+				BAADE69421BFB0C4006AC045 /* Assets.xcassets */,
+				BAADE69621BFB0C4006AC045 /* MainMenu.xib */,
+				BAADE69921BFB0C4006AC045 /* Info.plist */,
+				BAADE69A21BFB0C4006AC045 /* main.m */,
+				BAADE69C21BFB0C4006AC045 /* maclearning.entitlements */,
+			);
+			path = maclearning;
+			sourceTree = "<group>";
+		};
+		BAADE6A421BFB0C4006AC045 /* maclearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAADE6A521BFB0C4006AC045 /* maclearningTests.m */,
+				BAADE6A721BFB0C4006AC045 /* Info.plist */,
+			);
+			path = maclearningTests;
+			sourceTree = "<group>";
+		};
+		BAADE6AF21BFB0C4006AC045 /* maclearningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAADE6B021BFB0C4006AC045 /* maclearningUITests.m */,
+				BAADE6B221BFB0C4006AC045 /* Info.plist */,
+			);
+			path = maclearningUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAADE68721BFB0C3006AC045 /* maclearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAADE6B521BFB0C4006AC045 /* Build configuration list for PBXNativeTarget "maclearning" */;
+			buildPhases = (
+				BAADE68421BFB0C3006AC045 /* Sources */,
+				BAADE68521BFB0C3006AC045 /* Frameworks */,
+				BAADE68621BFB0C3006AC045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = maclearning;
+			productName = maclearning;
+			productReference = BAADE68821BFB0C3006AC045 /* maclearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAADE6A021BFB0C4006AC045 /* maclearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAADE6B821BFB0C4006AC045 /* Build configuration list for PBXNativeTarget "maclearningTests" */;
+			buildPhases = (
+				BAADE69D21BFB0C4006AC045 /* Sources */,
+				BAADE69E21BFB0C4006AC045 /* Frameworks */,
+				BAADE69F21BFB0C4006AC045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAADE6A321BFB0C4006AC045 /* PBXTargetDependency */,
+			);
+			name = maclearningTests;
+			productName = maclearningTests;
+			productReference = BAADE6A121BFB0C4006AC045 /* maclearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAADE6AB21BFB0C4006AC045 /* maclearningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAADE6BB21BFB0C4006AC045 /* Build configuration list for PBXNativeTarget "maclearningUITests" */;
+			buildPhases = (
+				BAADE6A821BFB0C4006AC045 /* Sources */,
+				BAADE6A921BFB0C4006AC045 /* Frameworks */,
+				BAADE6AA21BFB0C4006AC045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAADE6AE21BFB0C4006AC045 /* PBXTargetDependency */,
+			);
+			name = maclearningUITests;
+			productName = maclearningUITests;
+			productReference = BAADE6AC21BFB0C4006AC045 /* maclearningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAADE68021BFB0C3006AC045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = henry;
+				TargetAttributes = {
+					BAADE68721BFB0C3006AC045 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BAADE6A021BFB0C4006AC045 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BAADE68721BFB0C3006AC045;
+					};
+					BAADE6AB21BFB0C4006AC045 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BAADE68721BFB0C3006AC045;
+					};
+				};
+			};
+			buildConfigurationList = BAADE68321BFB0C3006AC045 /* Build configuration list for PBXProject "maclearning" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAADE67F21BFB0C3006AC045;
+			productRefGroup = BAADE68921BFB0C3006AC045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAADE68721BFB0C3006AC045 /* maclearning */,
+				BAADE6A021BFB0C4006AC045 /* maclearningTests */,
+				BAADE6AB21BFB0C4006AC045 /* maclearningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAADE68621BFB0C3006AC045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAADE69521BFB0C4006AC045 /* Assets.xcassets in Resources */,
+				BAADE69321BFB0C3006AC045 /* Document.xib in Resources */,
+				BAADE69821BFB0C4006AC045 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAADE69F21BFB0C4006AC045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAADE6AA21BFB0C4006AC045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAADE68421BFB0C3006AC045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAADE69021BFB0C3006AC045 /* Document.m in Sources */,
+				BAADE69B21BFB0C4006AC045 /* main.m in Sources */,
+				BAADE68D21BFB0C3006AC045 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAADE69D21BFB0C4006AC045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAADE6A621BFB0C4006AC045 /* maclearningTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAADE6A821BFB0C4006AC045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAADE6B121BFB0C4006AC045 /* maclearningUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAADE6A321BFB0C4006AC045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAADE68721BFB0C3006AC045 /* maclearning */;
+			targetProxy = BAADE6A221BFB0C4006AC045 /* PBXContainerItemProxy */;
+		};
+		BAADE6AE21BFB0C4006AC045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAADE68721BFB0C3006AC045 /* maclearning */;
+			targetProxy = BAADE6AD21BFB0C4006AC045 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAADE69121BFB0C3006AC045 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAADE69221BFB0C3006AC045 /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		BAADE69621BFB0C4006AC045 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAADE69721BFB0C4006AC045 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAADE6B321BFB0C4006AC045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BAADE6B421BFB0C4006AC045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BAADE6B621BFB0C4006AC045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = maclearning/maclearning.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = maclearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ewang.maclearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAADE6B721BFB0C4006AC045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = maclearning/maclearning.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = maclearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ewang.maclearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BAADE6B921BFB0C4006AC045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = maclearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ewang.maclearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maclearning.app/Contents/MacOS/maclearning";
+			};
+			name = Debug;
+		};
+		BAADE6BA21BFB0C4006AC045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = maclearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ewang.maclearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maclearning.app/Contents/MacOS/maclearning";
+			};
+			name = Release;
+		};
+		BAADE6BC21BFB0C4006AC045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = maclearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ewang.maclearningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = maclearning;
+			};
+			name = Debug;
+		};
+		BAADE6BD21BFB0C4006AC045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = maclearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ewang.maclearningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = maclearning;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAADE68321BFB0C3006AC045 /* Build configuration list for PBXProject "maclearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAADE6B321BFB0C4006AC045 /* Debug */,
+				BAADE6B421BFB0C4006AC045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAADE6B521BFB0C4006AC045 /* Build configuration list for PBXNativeTarget "maclearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAADE6B621BFB0C4006AC045 /* Debug */,
+				BAADE6B721BFB0C4006AC045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAADE6B821BFB0C4006AC045 /* Build configuration list for PBXNativeTarget "maclearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAADE6B921BFB0C4006AC045 /* Debug */,
+				BAADE6BA21BFB0C4006AC045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAADE6BB21BFB0C4006AC045 /* Build configuration list for PBXNativeTarget "maclearningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAADE6BC21BFB0C4006AC045 /* Debug */,
+				BAADE6BD21BFB0C4006AC045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAADE68021BFB0C3006AC045 /* Project object */;
+}
